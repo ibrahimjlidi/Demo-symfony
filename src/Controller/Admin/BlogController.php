@@ -92,9 +92,9 @@ class BlogController extends AbstractController
             // See https://symfony.com/doc/current/controller.html#flash-messages
             $this->addFlash('success', 'post.created_successfully');
 
-            if ($form->get('saveAndCreateNew')->isClicked()) {
-                return $this->redirectToRoute('admin_post_new');
-            }
+            // if ($form->get('saveAndCreateNew')->isClicked()) {
+            //     return $this->redirectToRoute('admin_post_new');
+            // }
 
             return $this->redirectToRoute('admin_post_index');
         }

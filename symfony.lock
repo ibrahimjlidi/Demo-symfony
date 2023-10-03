@@ -1,6 +1,35 @@
 {
+    "api-platform/core": {
+        "version": "2.7",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "2.5",
+            "ref": "05b57782a78c21a664a42055dc11cf1954ca36bb"
+        },
+        "files": [
+            "./config/packages/api_platform.yaml",
+            "./config/routes/api_platform.yaml",
+            "./src/Entity/.gitignore"
+        ]
+    },
+    "api-platform/schema-generator": {
+        "version": "v5.2.0"
+    },
+    "cebe/php-openapi": {
+        "version": "1.7.0"
+    },
     "composer/package-versions-deprecated": {
         "version": "1.11.99.4"
+    },
+    "composer/pcre": {
+        "version": "3.1.0"
+    },
+    "composer/semver": {
+        "version": "3.3.2"
+    },
+    "composer/xdebug-handler": {
+        "version": "3.0.3"
     },
     "dama/doctrine-test-bundle": {
         "version": "4.0",
@@ -118,8 +147,23 @@
     "erusev/parsedown": {
         "version": "1.7.4"
     },
+    "friendsofphp/php-cs-fixer": {
+        "version": "3.6",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "3.0",
+            "ref": "be2103eb4a20942e28a6dd87736669b757132435"
+        },
+        "files": [
+            "./.php-cs-fixer.dist.php"
+        ]
+    },
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.5"
+    },
+    "justinrainbow/json-schema": {
+        "version": "5.2.12"
     },
     "laminas/laminas-code": {
         "version": "4.4.3"
@@ -130,6 +174,9 @@
     "league/config": {
         "version": "v1.1.1"
     },
+    "league/html-to-markdown": {
+        "version": "5.1.0"
+    },
     "league/uri-parser": {
         "version": "1.4.1"
     },
@@ -139,6 +186,21 @@
     "monolog/monolog": {
         "version": "2.3.5"
     },
+    "nelmio/cors-bundle": {
+        "version": "2.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "1.5",
+            "ref": "6bea22e6c564fba3a1391615cada1437d0bde39c"
+        },
+        "files": [
+            "./config/packages/nelmio_cors.yaml"
+        ]
+    },
+    "nette/php-generator": {
+        "version": "v3.6.9"
+    },
     "nette/schema": {
         "version": "v1.2.2"
     },
@@ -147,6 +209,21 @@
     },
     "nikic/php-parser": {
         "version": "v4.13.2"
+    },
+    "php-cs-fixer/diff": {
+        "version": "v2.0.2"
+    },
+    "phpdocumentor/reflection-common": {
+        "version": "2.2.0"
+    },
+    "phpdocumentor/reflection-docblock": {
+        "version": "5.3.0"
+    },
+    "phpdocumentor/type-resolver": {
+        "version": "1.6.2"
+    },
+    "phpstan/phpdoc-parser": {
+        "version": "1.16.1"
     },
     "phpstan/phpstan": {
         "version": "1.2.0"
@@ -159,6 +236,9 @@
     },
     "psr/event-dispatcher": {
         "version": "1.0.0"
+    },
+    "psr/link": {
+        "version": "2.0.1"
     },
     "psr/log": {
         "version": "1.1.4"
@@ -174,6 +254,9 @@
         "files": [
             "config/packages/sensio_framework_extra.yaml"
         ]
+    },
+    "sweetrdf/easyrdf": {
+        "version": "1.8.0"
     },
     "symfony/apache-pack": {
         "version": "1.0",
@@ -395,6 +478,9 @@
     "symfony/polyfill-php81": {
         "version": "v1.23.0"
     },
+    "symfony/process": {
+        "version": "v6.0.19"
+    },
     "symfony/property-access": {
         "version": "v6.0.0"
     },
@@ -437,6 +523,9 @@
     },
     "symfony/security-http": {
         "version": "v6.0.0"
+    },
+    "symfony/serializer": {
+        "version": "v6.0.19"
     },
     "symfony/service-contracts": {
         "version": "v3.0.0"
@@ -500,6 +589,9 @@
     },
     "symfony/var-exporter": {
         "version": "v6.0.0"
+    },
+    "symfony/web-link": {
+        "version": "v6.0.19"
     },
     "symfony/web-profiler-bundle": {
         "version": "3.3",
@@ -566,5 +658,11 @@
     },
     "twig/twig": {
         "version": "v3.3.4"
+    },
+    "webmozart/assert": {
+        "version": "1.11.0"
+    },
+    "willdurand/negotiation": {
+        "version": "3.1.0"
     }
 }
